@@ -1,0 +1,71 @@
+.main-section {
+  background-image: url("/assets/img/img-main.jpeg");
+  background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+}
+.general {
+  margin: 80px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  width: 1280px;
+}
+
+.cards > div {
+  border-radius: 2%;
+  width: 380px;
+  border: 1px solid grey;
+  box-sizing: initial;
+}
+
+.cards > div img {
+  padding-bottom: 10px;
+  height: 250px;
+  width: 380px;
+  border-radius: 3%;
+}
+.cards > div h5 {
+  padding-left: 20px;
+}
+.cards > div p {
+  padding-left: 20px;
+}
+.cards1 {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  width: 1280px;
+}
+
+.cards1 > div {
+  border-radius: 2%;
+  width: 380px;
+  border: 1px solid grey;
+  box-sizing: initial;
+}
+
+.cards1 > div img {
+  padding-bottom: 10px;
+  height: 250px;
+  width: 380px;
+  border-radius: 3%;
+}
+.cards1 > div h5 {
+  padding-left: 20px;
+}
+.cards1 > div p {
+  padding-left: 20px;
+}
